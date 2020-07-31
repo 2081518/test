@@ -1,5 +1,5 @@
-from src.validations.validate import validate_image, validate_web_url, validate_url_incomplete
-from src.normalizers.normalize import normalize_url
+from validations.validate import validate_image, validate_web_url, validate_url_incomplete
+from normalizers.normalize import normalize_url
 import re
 
 

@@ -18,15 +18,21 @@ def mk_request(url: str):
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
     }
     requests.packages.urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-    response = requests.get(
-        url=url,
-        headers=headers,
-        stream=True,
-        verify=False
-    )
-    if response.status_code in [200, 201, 202, 300, 301, 302, 303, 304]:
+    response = None
+    try:
+        response = requests.get(
+            url=url,
+            headers=headers,
+            stream=True,
+            verify=False
+        )
+    except:
+        pass
+
+    if response and response.status_code in [200, 201, 202, 300, 301, 302, 303, 304]:
         return url, response
     else:
+        print(url)
         return url, "DeadPage"
 
 

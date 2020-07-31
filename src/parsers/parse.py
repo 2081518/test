@@ -1,6 +1,6 @@
-from src.normalizers.normalize import normalize_phone_number, normalize_phone_number_list
-from src.extractors.extract import extract_phone_number, extract_website_logo
-from src.validations.validate import validate_phone
+from normalizers.normalize import normalize_phone_number, normalize_phone_number_list
+from extractors.extract import extract_phone_number, extract_website_logo
+from validations.validate import validate_phone
 
 from io import StringIO
 from lxml import etree
