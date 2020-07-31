@@ -1,1 +1,1 @@
-cat $file | docker run -i scrape_logo_and_phone_number cat
+cat $file | docker run -i scrape_logo_and_phone_number

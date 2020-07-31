@@ -9,7 +9,7 @@ def mk_request(url: str):
     Function to make request with
     Get method and return the photo
     as a response.
-    :param url: URL da foto
+    :param url: photo URL
     :type url: str
     :return photo
     :rtype Response

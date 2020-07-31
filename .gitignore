@@ -130,3 +130,6 @@ dmypy.json
 
 # Useless
 .idea/
+
+# personal
+test_file.txt

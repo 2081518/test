@@ -12,6 +12,13 @@ from src.parsers.parse import parse_result
 
 
 if __name__ == "__main__":
+    """
+    Nothing else than the main.py
+    It'll make the main calls, like
+    make the requests, and process
+    their responses and output the
+    result.
+    """
     urls = list()
     urls += parse_argv(input_argv=argv)
     urls += parse_stdin(input_stdin=stdin)
