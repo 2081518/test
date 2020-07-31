@@ -1,0 +1,1 @@
+docker build -t scrape_logo_and_phone_number -f docker-production/Dockerfile .
