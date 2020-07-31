@@ -4,14 +4,12 @@ from os import getcwd
 from select import select
 from sys import stdin, argv, path
 
-path.append(getcwd())
+from src.initialization.get_arguments import parse_argv, parse_stdin
 
-from initialization.get_arguments import parse_argv, parse_stdin
+from src.scrapers.scrape import concurrent_function
+from src.scrapers.scrape import mk_request
 
-from scrapers.scrape import concurrent_function
-from scrapers.scrape import mk_request
-
-from parsers.parse import parse_result
+from src.parsers.parse import parse_result
 
 
 if __name__ == "__main__":

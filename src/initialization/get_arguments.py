@@ -1,4 +1,4 @@
-from normalizers.normalize import clean_url
+from src.normalizers.normalize import clean_url
 
 
 def parse_argv(input_argv: list) -> list:

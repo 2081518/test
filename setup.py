@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='logo_photo_web_scraper',
+    name='logo-photo-web-scraper',
     url='https://github.com/2081518/test',
     author='Thor Marinho',
     packages=[
