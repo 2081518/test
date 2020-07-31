@@ -37,7 +37,6 @@ RUN apk add --no-cache  openssh-client
 RUN apk add autoconf
 Run apk add pkgconfig
 RUN apk add --update libxml2-dev libxslt-dev
-RUN apk add jpeg-dev
 RUN apk add libtool
 
 # Setup of pip3

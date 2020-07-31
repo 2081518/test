@@ -17,10 +17,10 @@ Here are three different ways of run It:
 
 - Run with Python 3
     - If you want to pass a file.txt with web sites, then:
-        - `cat websites.txt | Python3 main.py`
+        - `cat <file.txt> | Python3 main.py`
     - Else, if you want to pass the web sites through the command line, then:
         - `Python3 main.py https://website.com, https://website1.com, https://website2.com`
 
 - Run with Python3 -m
-    - `pip install https://github.com/2081518/test`
-    - `cat websites.txt | Python3 -m main.py`
+    - `python3 -m pip install git+https://github.com/2081518/test.git`
+    - `cat <file.txt> | python3 -m src.main`

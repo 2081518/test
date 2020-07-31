@@ -1,7 +1,8 @@
 import asyncio
-import urllib3
 import requests
 import concurrent.futures
+
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 
 def mk_request(url: str):
@@ -17,7 +18,7 @@ def mk_request(url: str):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
     }
-    requests.packages.urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
     response = None
     try:
         response = requests.get(

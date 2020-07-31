@@ -1,14 +1,13 @@
+from select import select
+from os import getcwd
+from sys import stdin, argv, path
+path.append(getcwd())
+
 import warnings
 
-from os import getcwd
-from select import select
-from sys import stdin, argv, path
-
 from src.initialization.get_arguments import parse_argv, parse_stdin
-
 from src.scrapers.scrape import concurrent_function
 from src.scrapers.scrape import mk_request
-
 from src.parsers.parse import parse_result
 
 
