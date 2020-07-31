@@ -33,7 +33,6 @@ def mk_request(url: str):
     if response and response.status_code in [200, 201, 202, 300, 301, 302, 303, 304]:
         return url, response
     else:
-        print(url)
         return url, "DeadPage"
 
 
