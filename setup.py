@@ -4,7 +4,7 @@ setup(
     name='logo_photo_web_scraper',
     url='https://github.com/2081518/test',
     author='Thor Marinho',
-    packages=['src'],
+    packages=['test'],
     install_requires=[
         'certifi==2017.4.17',
         'cffi==1.13.2',
@@ -24,6 +24,5 @@ setup(
     version='0.1',
     license='2081518',
     description='A simple web scraper of logo and phone numbers',
-    # We will also need a readme eventually (there will be a warning)
     long_description=open('README.md').read()
 )
