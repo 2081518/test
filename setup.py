@@ -4,7 +4,7 @@ setup(
     name='logo_photo_web_scraper',
     url='https://github.com/2081518/test',
     author='Thor Marinho',
-    packages=['test'],
+    packages=['src'],
     install_requires=[
         'certifi==2017.4.17',
         'cffi==1.13.2',
