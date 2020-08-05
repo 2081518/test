@@ -24,7 +24,7 @@ setup(
         'pyasn1==0.2.3',
         'pyasn1-modules==0.0.9',
         'PyDispatcher==2.0.5',
-        'pyOpenSSL==17.1.0',
+        'pyOpenSSL==17.5.0',
         'queuelib==1.4.2',
         'requests==2.13.0',
         'urllib3==1.22'
