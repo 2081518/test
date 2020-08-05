@@ -26,7 +26,7 @@ setup(
         'PyDispatcher==2.0.5',
         'pyOpenSSL==17.5.0',
         'queuelib==1.4.2',
-        'requests==2.13.0',
+        'requests==2.20.0',
         'urllib3==1.24.2'
     ],
     version='0.1',
