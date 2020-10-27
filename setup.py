@@ -16,7 +16,7 @@ setup(
     install_requires=[
         'certifi==2017.4.17',
         'cffi==1.13.2',
-        'cryptography==2.8',
+        'cryptography==3.2',
         'fake-useragent==0.1.7',
         'itsdangerous==0.24',
         'lxml==4.5.0',
