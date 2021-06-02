@@ -27,7 +27,7 @@ setup(
         'pyOpenSSL==17.5.0',
         'queuelib==1.4.2',
         'requests==2.13.0',
-        'urllib3==1.24.2'
+        'urllib3==1.26.5'
     ],
     version='0.1',
     license='2081518',
