@@ -7,7 +7,7 @@ cffi==1.13.2
 cryptography==2.8
 fake-useragent==0.1.7
 itsdangerous==0.24
-lxml==4.5.0
+lxml==4.6.5
 parsel==1.2.0
 pyasn1==0.2.3
 pyasn1-modules==0.0.9
