@@ -14,7 +14,7 @@ setup(
         'src.validations'
     ],
     install_requires=[
-        'certifi==2017.4.17',
+        'certifi==2022.12.7',
         'cffi==1.13.2',
         'cryptography==2.8',
         'fake-useragent==0.1.7',
